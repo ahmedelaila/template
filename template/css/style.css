@@ -1,0 +1,163 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    margin-bottom: 10%;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../media/image/landing.jpeg);
+    background-size: cover;
+    position: relative;
+}
+.container{
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+.textContain{
+    text-align: center;
+}
+#copy{
+    padding-bottom: 30px;
+    font-size: 100px;
+    color: aqua;
+}
+h1 ,h4 {
+    font-weight: bold;
+    color: #7f7171;
+    padding: 30px;
+
+}
+p {
+    font-weight:300;
+    color: rgba(37, 37, 37, 0.349);
+    padding-bottom: 30px;
+
+}
+button {
+    width: 170px;
+    height: 40px;
+    border-radius: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.mac{
+    background-color: #6073ff;
+}
+.ios{
+    background-color:#29b39f;
+}
+.flex {
+    display: flex;
+    gap: 3%;
+
+}
+.flex img {
+    border-radius: 4px;
+    width: 57%;
+    height: 400px;
+}
+.card {
+    width: 40%;
+    margin: auto;
+    height: 90%;
+}
+span {
+    display: block;
+    margin-bottom: 20px;
+    width: 200px;
+    height: calc(100% / 3);
+}
+.card h3{
+    color: #7f7971;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.card p{
+    width: 250px;
+    color: #7f7971;
+    font-weight: 300;
+    font-size: 12px;
+}
+.services {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.services span {
+    width: 350px;
+    padding: 20px;
+}
+.services span p {
+    width: 90%;
+    color: #7f7971;
+    font-weight: 300;
+    font-size: 12px;
+}
+.logo .items{
+    font-size: 25px;
+    color: #7f7971;
+    display: flex;
+    justify-content: space-around;
+    /* text-transform: capitalize;     */
+}
+.logo .items {
+    width: 100%;
+    text-align: justify;
+
+}
+.logo .items .ibm {
+    font-size: 40px;
+    text-transform: uppercase;    
+}
+.logo .items .victor {
+    position: relative;
+    width: 200px;
+}
+.logo .items .victor::before {
+    content: '';
+    position: absolute;
+    top: 25%;
+    left: -15%;
+    width: 30px;
+    height: 30px;
+    background-color: #7f7971;
+    border-radius: 50%;   
+}
+footer {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: whitesmoke;
+}
+footer a {
+   color: #7f7971;
+   width: 100%;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+.grid{
+    text-align: justify;
+    gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(2 , 30px);
+    margin-top: 15px;
+}
+.icons {
+    padding-top: 50px;
+}
+i {
+    font-size: 20px;
+}
